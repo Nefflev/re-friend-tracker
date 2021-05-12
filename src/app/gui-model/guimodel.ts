@@ -127,7 +127,7 @@ export class GuiModel {
                         {
                             "id": "creationDate",
                             "type": "date",
-                            "name": "Creation Date",
+                            "name": "CreationDate",
                             "width": 2
                         },
                         {
@@ -308,7 +308,7 @@ export class GuiModel {
                         {
                             "type": "newButton",
                             "name": "AddActivity",
-                            "icon": "fa-user",
+                            "icon": "fa-cloud",
                             "color": "green",
                             "form": {
                                 "form": "AddActivityForm"
