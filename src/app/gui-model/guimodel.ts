@@ -306,12 +306,23 @@ export class GuiModel {
                             }
                         },
                         {
+                            "type": "newButton",
+                            "name": "AddActivity",
+                            "icon": "fa-user",
+                            "color": "green",
+                            "form": {
+                                "form": "AddActivityForm"
+                            }
+                        },
+                        {
                             "type": "list",
                             "icon": "fa-user",
-                            "color": "blue",
+                            "color": "orange",
                             "search": true,
-                            "url": "/friend",
-                            "page": "friend/:friendKey/activity",
+                            "url": "/friend/:friendKey/activity",
+                            "form": {
+                                "form": "AddActivityForm"
+                            }
                         },
                     ]
                 },
